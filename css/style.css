@@ -246,3 +246,12 @@ footer {
     padding: 1rem 2rem;
     text-align: center;
 }
+
+[data-aos] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+
+[data-aos].aos-animate {
+    opacity: 1;
+}
