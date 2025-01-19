@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <title>Portfólio</title>
 </head>
 <body>
@@ -38,11 +40,11 @@
         </div>
     </div>
     <div id="about-container">
-        <div id="about-text">
+        <div id="about-text" data-aos="fade-up">
             <h1>Sobre mim</h1>
-            <p>Atualmente, aplico minhas habilidades em programação, machine learning e visualização de dados para criar soluções inovadoras em diversos setores. Minha paixão está em transformar desafios complexos em oportunidades, explorando como a tecnologia e a análise de dados podem gerar impacto em contextos variados. Essa visão estratégica e multidisciplinar é resultado de uma trajetória marcada pela adaptação e pela busca constante por aprendizado.
+            <p data-aos="fade-up" data-aos-delay="100">Atualmente, aplico minhas habilidades em programação, machine learning e visualização de dados para criar soluções inovadoras em diversos setores. Minha paixão está em transformar desafios complexos em oportunidades, explorando como a tecnologia e a análise de dados podem gerar impacto em contextos variados. Essa visão estratégica e multidisciplinar é resultado de uma trajetória marcada pela adaptação e pela busca constante por aprendizado.
             </p>
-            <p>
+            <p data-aos="fade-up" data-aos-delay="200">
                 Minha jornada começou na Biotecnologia, onde enfrentei desafios científicos trabalhando com dados genéticos e análises avançadas. Foi nesse ambiente que percebi como as ferramentas que desenvolvia para resolver problemas biológicos também poderiam ser aplicadas em diferentes áreas. Essa descoberta ampliou meu horizonte, mostrando que as mesmas habilidades técnicas podem transformar não apenas a ciência, mas também outros contextos, conectando inovação e impacto de maneira versátil.
             </p>
         </div>
@@ -73,5 +75,8 @@
     <footer>
         <p>Desenvolvido por Victor Lopes de Castro</p>
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
